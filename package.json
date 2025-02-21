@@ -1,11 +1,11 @@
 {
-  "name": "@Neelchudasama1/react-test-package",
-  "version": "1.0.9",
+  "name": "@neelchudasama1/react-test-package",
+  "version": "1.0.10",
   "description": "A React Native library for XYZ.",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Neelchudasama1/react-package.git"
+    "url": "https://github.com/neelchudasama1/react-package.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

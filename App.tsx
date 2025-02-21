@@ -6,14 +6,9 @@
  */
 
 import React from 'react';
-import {
-  SafeAreaView,
-  useColorScheme,
-} from 'react-native';
+import { SafeAreaView, useColorScheme } from 'react-native';
 
-import {
-  Colors,
-} from 'react-native/Libraries/NewAppScreen';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 import UserLoginScreen from './src/Login'; // Import the UserLoginScreen component
 import { GluestackUIProvider } from '@gluestack-ui/themed';
 import { config } from '@gluestack-ui/config';
@@ -23,17 +18,16 @@ function App(): React.JSX.Element {
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-    flex:1,
+    flex: 1,
   };
 
   return (
     <GluestackUIProvider config={config}>
       <SafeAreaView style={backgroundStyle}>
-        {/* <UserLoginScreen /> */}
+        <UserLoginScreen />
       </SafeAreaView>
     </GluestackUIProvider>
   );
 }
-
 
 export default App;

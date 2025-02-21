@@ -1,6 +1,6 @@
 {
   "name": "@neelchudasama1/react-test-package",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A React Native library for XYZ.",
   "main": "dist/index.js",
   "repository": {

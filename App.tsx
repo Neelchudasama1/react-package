@@ -29,7 +29,7 @@ function App(): React.JSX.Element {
   return (
     <GluestackUIProvider config={config}>
       <SafeAreaView style={backgroundStyle}>
-        <UserLoginScreen />
+        {/* <UserLoginScreen /> */}
       </SafeAreaView>
     </GluestackUIProvider>
   );
